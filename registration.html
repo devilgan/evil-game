@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="top-nav">
+        <a href="main.html">Home</a>
+        <a href="info.html">Game Info</a>
+        <a href="registration.html">Registration</a>
+        <a href="contact.html">Contact</a>
+        <a href="leaderboard.html">Leaderboard</a>
+        <a href="animation.html">Animation</a>
+        <a href="about.html">About</a>
+    </div>
+    <div class="container">
+        <h1>Nightmare Maze - Player Registration</h1>
+        <form class="registration-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Date of Birth</label>
+                <input type="date" id="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="gaming-experience">Gaming Experience</label>
+                <select id="gaming-experience">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="profile-pic">Profile Picture</label>
+                <input type="file" id="profile-pic">
+            </div>
+            <button type="submit" class="submit-btn">Register for Nightmare Maze</button>
+        </form>
+    </div>
+</body>
+</html>
