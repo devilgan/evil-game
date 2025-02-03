@@ -46,16 +46,33 @@ body {
 .wall {
     background-color: #8b0000;
 }
-.player { /*פה העיצוב של לוגי שרץ בתוך המבוך*/
+.player-luigi { /*פה העיצוב של לוגי שרץ בתוך המבוך*/
     position: absolute;
     width: 30px;
     height: 30px;
     background-image: url('luigi-run.gif');
     background-size: cover;
     animation: luigi 20s linear infinite;
-    z-index: 10;
+    z-index: 5;
 }
 @keyframes luigi { /*פה התזוזות של לויגי*/
+    0% { left: 0; top: 0; }
+    20% { left: 570px; top: 0; }
+    40% { left: 570px; top: 570px; }
+    60% { left: 200px; top: 360px; }
+    80% { left: 0; top: 570px; }
+    100% { left: 0; top: 0; }
+}
+.player-mario { /*פה העיצוב של מאריו שרץ בתוך המבוך*/
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url('mariof.gif');
+    background-size: cover;
+    animation: mario 30s linear infinite;
+    z-index: 10;
+}
+@keyframes mario { /*פה התזוזות של מאריו*/
     0% { left: 0; top: 0; }
     20% { left: 570px; top: 0; }
     40% { left: 570px; top: 570px; }

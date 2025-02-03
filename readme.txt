@@ -7,3 +7,5 @@
 7. Main page - i called it "index.html" because the github platform have a rule to call the main page "index.html" for it to work with there free domain.
 8. The "top nav" can be used on evrey page.
 9. The "down nav" can be used on home page and contact page.
+10. anime - 2 player mario and Luigi moving.
+
