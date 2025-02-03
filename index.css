@@ -97,3 +97,13 @@ body {
     background-color: #8b0000;
     box-shadow: 0 4px 8px rgba(255,0,0,0.5);
 }
+
+ .ira-logo { /*פה עשיתי את ההגדרות הטכניות של התמונה*/
+    width: 150px; 
+    position: relative;
+    animation: movelogo 3s linear infinite alternate;
+}
+@keyframes movelogo {/*פה האנימציה שגורמת לתמונה לזוז ממקום למקום*/
+    0% { transform: translateX(0); }
+    100% { transform: translateX(400px); }
+}

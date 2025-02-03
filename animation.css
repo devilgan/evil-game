@@ -33,7 +33,7 @@ body {
     background-color: #8b0000;
     box-shadow: 0 4px 8px rgba(255,0,0,0.5);
 }
-.maze {
+.maze { /*פה העיצוב של המבוך עצמו*/
     width: 600px;
     height: 600px;
     border: 3px solid #8b0000;
@@ -46,16 +46,16 @@ body {
 .wall {
     background-color: #8b0000;
 }
-.player {
+.player { /*פה העיצוב של לוגי שרץ בתוך המבוך*/
     position: absolute;
     width: 30px;
     height: 30px;
     background-image: url('luigi-run.gif');
     background-size: cover;
-    animation: move 20s linear infinite;
+    animation: luigi 20s linear infinite;
     z-index: 10;
 }
-@keyframes move {
+@keyframes luigi { /*פה התזוזות של לויגי*/
     0% { left: 0; top: 0; }
     20% { left: 570px; top: 0; }
     40% { left: 570px; top: 570px; }
@@ -69,6 +69,7 @@ body {
     font-weight: bold;
     z-index: 5;
 }
+/*מתחת למשפט הזה מופיע העיצוב של נקודות ההתחלה והסוף - לא רלוונטי לפיתוח*/
 .start {
     top: -30px;
     left: 0;
