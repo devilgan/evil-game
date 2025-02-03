@@ -65,6 +65,11 @@ video {
     animation: luigi 20s linear infinite;
     z-index: 5;
 }
+
+.player-luigi:hover {
+    width: 60px;
+    height: 60px;
+}
 @keyframes luigi { /*פה התזוזות של לויגי*/
     0% { left: 0; top: 0; }
     20% { left: 570px; top: 0; }
@@ -81,6 +86,10 @@ video {
     background-size: cover;
     animation: mario 30s linear infinite;
     z-index: 10;
+}
+.player-mario:hover {
+    width: 60px;
+    height: 60px;
 }
 @keyframes mario { /*פה התזוזות של מאריו*/
     0% { left: 0; top: 0; }
