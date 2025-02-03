@@ -8,4 +8,4 @@
 8. The "top nav" can be used on evrey page.
 9. The "down nav" can be used on home page and contact page.
 10. anime - 2 player mario and Luigi moving.
-
+11. the background is a video loop "cyber style" video - its not rellvante for the web goals and game but its look cool and its to show skills
